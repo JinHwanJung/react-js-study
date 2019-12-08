@@ -7,7 +7,7 @@ const AppRoute = () => (
     <Switch>
         {RouteData.map(
             ({path, component}, index) => (
-                <Route exact path={path} component={component} key={index}> /></Route>
+                <Route exact path={path} component={component} key={index}></Route>
             )
         )}
         <Redirect from="*" to="/"></Redirect>

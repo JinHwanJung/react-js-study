@@ -5,6 +5,6 @@ import More from './more';
 
 export default [
     { path: "/", component: User },
-    { path: "/caht", component: Chat },
+    { path: "/chat", component: Chat },
     { path: "/more", component: More }
 ];
